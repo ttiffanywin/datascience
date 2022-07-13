@@ -106,7 +106,7 @@
       "metadata": {
         "id": "lOTlHEMkaHQA"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -133,7 +133,7 @@
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -366,12 +366,12 @@
       ],
       "metadata": {
         "id": "rB2eUZSydjEZ",
+        "outputId": "8164976d-8fb8-4fe2-eb31-a7f0498b9ee0",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "8164976d-8fb8-4fe2-eb31-a7f0498b9ee0"
+        }
       },
-      "execution_count": 33,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -397,32 +397,25 @@
         "      return end\n",
         "  return end\n",
         "\n",
-        "  a1=[1,2,3,4]\n",
-        "  a2=[5,4,7,10]\n",
+        "a1=[1,2,3,4]\n",
+        "a2=[5,4,7,10]\n",
         "\n",
-        "print(common(a1,a2))\n",
-        "\n",
-        "# a2 is assigned..? hoping to get feedback"
+        "print(common(a1,a2))\n"
       ],
       "metadata": {
         "id": "BqJ6a2AGdzzg",
+        "outputId": "39883a9e-8e41-4167-a2c5-65819fc2afcf",
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 240
-        },
-        "outputId": "d594817f-6af1-467c-9bb4-6639a980e89a"
+          "base_uri": "https://localhost:8080/"
+        }
       },
-      "execution_count": 55,
+      "execution_count": 1,
       "outputs": [
         {
-          "output_type": "error",
-          "ename": "NameError",
-          "evalue": "ignored",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
-            "\u001b[0;32m<ipython-input-55-b7971e29baef>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     14\u001b[0m   \u001b[0ma2\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m5\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m4\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m7\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m10\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 16\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcommon\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0ma2\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     17\u001b[0m \u001b[0;31m#print(a2)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     18\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;31mNameError\u001b[0m: name 'a2' is not defined"
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
           ]
         }
       ]
@@ -443,12 +436,12 @@
       ],
       "metadata": {
         "id": "j9MBWd-edzQe",
+        "outputId": "0ec9c00a-439b-4c9e-a668-35655d9f1919",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "0ec9c00a-439b-4c9e-a668-35655d9f1919"
+        }
       },
-      "execution_count": 40,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
